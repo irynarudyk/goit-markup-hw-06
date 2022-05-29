@@ -717,6 +717,7 @@ img {
 
 .subscribe-icon {
   margin-left: 10px;
+  fill: currentColor;
 }
 
 /*Портфолио*/
