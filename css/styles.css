@@ -366,11 +366,13 @@ img {
 
   letter-spacing: 0.01em;
   color: #757575;
+  margin-bottom: 4px;
 }
 
 .form-input-container {
   position: relative;
   display: block;
+  
 }
 
 .form-input {
@@ -442,7 +444,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
   color: #ffff;
   cursor: pointer;
   margin-top: 20px;
@@ -503,7 +504,7 @@ img {
   border-radius: 4px;
   border: 1px;
   padding: 10px 32px;
-  margin-top: 30px;
+  margin-bottom: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
