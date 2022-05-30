@@ -341,11 +341,14 @@ img {
 }
 
 .form-contact {
+  display: block;
+  
   text-align: center;
 }
 
 .form-label {
   display: block;
+  position: relative;
   text-align: left;
 }
 
