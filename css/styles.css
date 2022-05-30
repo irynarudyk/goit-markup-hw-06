@@ -439,7 +439,7 @@ img {
   cursor: pointer;
   margin-top: 20px;
   margin-bottom: 30px;
-}
+  }
 
 .checkbox-icon {
   display: inline-block;
@@ -448,7 +448,7 @@ img {
   
   border-radius: 2px;
   outline: none;
-  
+    
 }
 
 .checkbox-input:focus + .checkbox-icon {
