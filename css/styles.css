@@ -274,7 +274,6 @@ img {
   pointer-events: none;
 }
 
-
 .modal-wrapper {
   position: absolute;
   top: 50%;
@@ -283,9 +282,9 @@ img {
   height: 581px;
   padding: 40px;
   background-color: #fff;
-  
+
   transform: translate(-50%, -50%);
-  
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -357,6 +356,13 @@ img {
   margin-bottom: 10px;
 }
 
+.form-label-comments {
+  display: block;
+  position: relative;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
 .form-name {
   display: inline-block;
   font-family: inherit;
@@ -372,7 +378,6 @@ img {
 .form-input-container {
   position: relative;
   display: block;
-  
 }
 
 .form-input {
@@ -446,18 +451,16 @@ img {
   align-items: center;
   color: #ffff;
   cursor: pointer;
-  margin-top: 20px;
   margin-bottom: 30px;
-  }
+}
 
 .checkbox-icon {
   display: inline-block;
   fill: #ffff;
   margin-right: 7px;
-  
+
   border-radius: 2px;
   outline: none;
-    
 }
 
 .checkbox-input:focus + .checkbox-icon {
@@ -514,7 +517,7 @@ img {
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-}
+
 /*Особенности*/
 
 .specific {
