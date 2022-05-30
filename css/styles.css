@@ -452,14 +452,25 @@ img {
   color: #ffff;
   cursor: pointer;
   margin-bottom: 30px;
+  /*border-color: #212121;*/
 }
+
+/*.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}*/
 
 .checkbox-icon {
   display: inline-block;
   fill: #ffff;
   margin-right: 7px;
 
-  border-radius: 2px;
   outline: none;
 }
 
@@ -482,7 +493,6 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*margin-top: 20px;*/
 
   color: #757575;
   cursor: pointer;
