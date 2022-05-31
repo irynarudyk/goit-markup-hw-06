@@ -466,6 +466,7 @@ img {
 }
 
 .checkbox-icon {
+  position: absolute;
   fill: #ffffff;
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -487,6 +488,7 @@ img {
 .checkbox-input:checked + .custom-checkbox {
   background-color: #2196f3;
   border-color: #2196f3;
+  color: #000;
   fill: #ffffff;
 }
 
